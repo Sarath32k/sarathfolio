@@ -23,5 +23,5 @@ This is a personal portfolio website for Sarathkumar, showcasing skills, project
 ## How to Use
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Sarath32k/sarathfolio.git
+
+   https://sarathfolio.netlify.app/
