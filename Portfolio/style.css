@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+/* hero section */
+.Hero-section{
+    background:linear-gradient(135deg, #00C9FF, #92FE9D);
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* skills section */
+.skills-section .card{
+    transition: all 0.3s ease-in-out;
+    width: 18rem;
+    border-top: 5px solid #238aff;
+    border-radius: .5rem;
+}
+
+.skills-section{
+    background:linear-gradient(to right, #fbc2eb, #a6c1ee);
+
+}
+.skills-section i{
+    font-size: 3rem;
+}
+
+.card ul li::before{
+    content: '-';
+    color: red;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+
+
+/* project section */
+
+.project-card .card{
+    border-radius: .5rem;
+    width: 18rem;
+    border-left: 3px solid #238aff;
+     transition: all 0.3s ease-in-out;
+}
+.project-card img{
+    width: 100%;
+    height: 12rem;
+    border-radius: .5rem;
+    object-fit: contain;
+}
+
+
+/* Back to Top Button */
+#backToTop {
+    z-index: 1000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
